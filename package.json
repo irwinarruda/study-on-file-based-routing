@@ -1,0 +1,17 @@
+{
+  "name": "study-on-file-based-routing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "process-routes": "pnpm -C packages/process-routes",
+    "sandbox": "pnpm -C packages/sandbox",
+    "dev": "pnpm process-routes build && pnpm sandbox dev"
+  },
+  "keywords": [],
+  "author": "irwinarruda",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
